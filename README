@@ -1,0 +1,15 @@
+0,Q:Argo Server/Client是什么？A:Argo Server是一组程序，可以部署于LAMP环境、PaaS 环境（如Google AppEnging, Sina AppEnging）等；Argo Client可以是Argo Server的Web前端、Android/iOS上的App，类似 Twitter/Sina Weibo客户端。
+
+1,Q:用户如何能够方便地同时登录多个Argo Server，一边获取所关注(Follow)的用户的发言？ 条件是：同一个Argo Client。A:似乎有很多可供效仿的对象，如Spring/Yibo等等，支持同时登录、并发刷新、同屏显示即 可。
+
+2,Q:如何找到感兴趣的用户？A:Argo Server Indexing服务进行Argo站的索引的推广；每个Argo Server具有推广本Server用户的机制。
+
+3,Q:Argo Server的迁移、搬家，如何通知Argo Client? A:手动通知、提前通知。
+
+4,Q:如何加强Argo Server之间的横向联系，促进话 题和有共同兴趣的用户的聚合？ A:通过Argo Content Indexing，采用类似twitter的#机制和搜索引擎， 进行内容聚合；内容聚合之后，用户自然会聚合。
+
+5,Q:如何全局性标识用户，以便用户在客户端上进 行Follow操作？A:还没想好。
+
+6,Q:采用众推平等的Twitter模式，还是采用有评论 机制的Sina weibo机制？为什么？对转推、转发、 带评论和不带评论的转发，影响如何？
+
+7,Q:Circle机制如何实现？A:在G+机制的基础上， 增加Argo Server的选项，效果达到在同一个Argo Server中，与G+完全相同。存在多个Argo Server 时，每个Argo Server就是一个用户组。
